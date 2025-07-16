@@ -8,4 +8,6 @@
     }
     get_arg();
     echo $test;
+
+    
 ?>
