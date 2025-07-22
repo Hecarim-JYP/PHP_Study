@@ -1,11 +1,12 @@
 <?php
-    $test = 1;
+    #global $test;# = 1;
+    $test = 9;
     function get_arg() {
-        $test = 13;
+        #$test = 13;
         global $test;
         $test = 1;
-        echo $test;
+        #echo $test;
     }
     get_arg();
-    echo $test;
+    #echo $test;
 ?>

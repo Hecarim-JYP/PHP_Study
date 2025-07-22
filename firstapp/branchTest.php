@@ -8,4 +8,5 @@
     }
     get_arg();
     echo $test;
+    # main
 ?>
