@@ -23,4 +23,6 @@
     foreach ($obj2 as $value) {
         echo "key = ". $value. "<br>";
     }
+
+    
 ?>
