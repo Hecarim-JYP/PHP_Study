@@ -9,7 +9,7 @@
         echo "<script>
             console.log('before');
         </script>";
-        return after();
+        return $callback();
     }
 
     before("after");
